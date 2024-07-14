@@ -1,0 +1,6 @@
+# Mac files
+.DS_STORE
+
+
+# Local tools (Docker, etc)
+tools/local-data
