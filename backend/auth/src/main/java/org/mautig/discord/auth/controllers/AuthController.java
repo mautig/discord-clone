@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
     @PostMapping("login")
-    public void login() {
-
+    public String login() {
+        return "Login";
     }
 }
