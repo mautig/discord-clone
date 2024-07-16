@@ -7,9 +7,7 @@ import java.util.function.Function;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
-import org.springframework.security.config.web.server.ServerHttpSecurity.HeaderSpec;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.web.header.Header;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
