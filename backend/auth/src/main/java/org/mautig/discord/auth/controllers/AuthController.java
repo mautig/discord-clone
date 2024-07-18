@@ -20,8 +20,7 @@ public class AuthController {
 
     @PostMapping("login")
     public String login(@RequestBody LoginDto loginDto) {
-        userService.authenticate(loginDto);
-        return "HJI";
+        return userService.authenticate(loginDto);
     }
 
     @PostMapping("register")

@@ -57,7 +57,7 @@ public class UserServiceImpl implements UserService {
                         loginDto.getPassword()));
 
         SecurityContextHolder.getContext().setAuthentication(authentication);
-        var token = "";
+        var token = jwtService.generateToken(loginDto.getEmail());
         return token;
     }
 
